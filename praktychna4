@@ -1,7 +1,7 @@
 a = list(input("Enter surname: "))
 
 for s in a:
-  if s.lover = "a"
+  if s.lower() == "a":
     print("""
  *** 
 *   *
@@ -11,7 +11,7 @@ for s in a:
 *   *
 *   *
     """)
-  if s.lover = "b"
+  if s.lower() == "b":
     print("""
 **** 
 *   *
@@ -21,7 +21,7 @@ for s in a:
 *   *
 **** 
     """)
-  if s.lover = "c"
+  if s.lower() == "c":
     print("""
  *** 
 *   *
@@ -31,7 +31,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lover = "d"
+  if s.lower() == "d":
     print("""
 ****  
 *   * 
@@ -41,7 +41,7 @@ for s in a:
 *   * 
 ****  
     """)
-  if s.lover = "e"
+  if s.lower() == "e":
     print("""
 *****
 *    
@@ -51,7 +51,7 @@ for s in a:
 *    
 *****
     """)
-  if s.lover = "f"
+  if s.lower() == "f":
     print("""
 *****
 *    
@@ -61,7 +61,7 @@ for s in a:
 *    
 *  
     """)
-  if s.lover = "g"
+  if s.lower() == "g":
     print("""
  *** 
 *   *
@@ -71,7 +71,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lover = "h"
+  if s.lower() == "h":
     print("""
 *   * 
 *   * 
@@ -81,7 +81,7 @@ for s in a:
 *   * 
 *   *
     """)
-  if s.lover = "i"
+  if s.lower() == "i":
     print("""
   ***
    * 
@@ -91,7 +91,7 @@ for s in a:
    * 
   ***
     """)
-  if s.lover = "j"
+  if s.lower() == "j":
     print("""
  ***
   * 
@@ -101,7 +101,7 @@ for s in a:
   * 
 ** 
     """)
-  if s.lover = "k"
+  if s.lower() == "k":
     print("""
 *   *
 *  * 
@@ -111,7 +111,7 @@ for s in a:
 *  * 
 *   *
     """)
-  if s.lover = "l"
+  if s.lower() == "l":
     print("""
  *    
  *    
@@ -121,7 +121,7 @@ for s in a:
  *    
  *****
     """)
-  if s.lover = "m"
+  if s.lower() == "m":
     print("""
  *   *
  *   *
@@ -131,7 +131,7 @@ for s in a:
  *   *
  *   *
     """)
-  if s.lover = "n"
+  if s.lower() == "n":
     print("""
 *   *
 *   *
@@ -141,7 +141,7 @@ for s in a:
 *   *
 *   *
     """)
-  if s.lover = "o"
+  if s.lower() == "o":
     print("""
  *** 
 *   *
@@ -151,7 +151,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lover = "p"
+  if s.lower() == "p":
     print("""
 ****
 *   *
@@ -161,7 +161,7 @@ for s in a:
 *
 *
     """)
-  if s.lover = "q"
+  if s.lower() == "q":
     print("""
   ***   
  *   *  
@@ -171,7 +171,7 @@ for s in a:
  *  *   
   ** * 
     """)
-  if s.lover = "r"
+  if s.lower() == "r":
     print("""
 ****    
 *   *   
@@ -181,7 +181,7 @@ for s in a:
 *  *    
 *   *  
     """)
-  if s.lover = "s"
+  if s.lower() == "s":
     print("""
  ****
 *    
@@ -191,7 +191,7 @@ for s in a:
     *
  *** 
     """)
-  if s.lover = "t"
+  if s.lower() == "t":
     print("""
 *****
   *  
@@ -201,7 +201,7 @@ for s in a:
   *  
   * 
     """)
-  if s.lover = "u"
+  if s.lower() == "u":
     print("""
 *   *
 *   *
@@ -211,7 +211,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lover = "v"
+  if s.lower() == "v":
     print("""
 *   *
 *   *
@@ -221,7 +221,7 @@ for s in a:
  * * 
   * 
     """)
-  if s.lover = "w"
+  if s.lower() == "w":
     print("""
 *   *
 *   *
@@ -231,7 +231,7 @@ for s in a:
 *   *
 *   *
     """)
-  if s.lover = "x"
+  if s.lower() == "x":
     print("""
 *   *    
 *   *    
@@ -241,17 +241,17 @@ for s in a:
 *   *    
 *   * 
     """)
-  if s.lover = "y"
+  if s.lower() == "y":
     print("""
- *   *
- *   *
-  * * 
-   *  
-   *  
-   *  
-   * 
+*   *
+*   *
+ * * 
+  *  
+  *  
+  *  
+  * 
     """)
-  if s.lover = "z"
+  if s.lower() == "z":
    print("""
 *****
     *
