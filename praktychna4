@@ -1,7 +1,10 @@
-a = list(input("Enter surname: "))
+a = input("Enter surname: ")
 
-for s in a:
-  if s.lower() == "a":
+d = len(a)
+
+c = list(a)
+
+def a():
     print("""
  *** 
 *   *
@@ -11,7 +14,7 @@ for s in a:
 *   *
 *   *
     """)
-  if s.lower() == "b":
+def b():
     print("""
 **** 
 *   *
@@ -21,7 +24,7 @@ for s in a:
 *   *
 **** 
     """)
-  if s.lower() == "c":
+def c():
     print("""
  *** 
 *   *
@@ -31,7 +34,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lower() == "d":
+def d():
     print("""
 ****  
 *   * 
@@ -41,7 +44,7 @@ for s in a:
 *   * 
 ****  
     """)
-  if s.lower() == "e":
+def e():
     print("""
 *****
 *    
@@ -51,7 +54,7 @@ for s in a:
 *    
 *****
     """)
-  if s.lower() == "f":
+def f():
     print("""
 *****
 *    
@@ -61,7 +64,7 @@ for s in a:
 *    
 *  
     """)
-  if s.lower() == "g":
+def g():
     print("""
  *** 
 *   *
@@ -71,7 +74,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lower() == "h":
+def h():
     print("""
 *   * 
 *   * 
@@ -81,7 +84,7 @@ for s in a:
 *   * 
 *   *
     """)
-  if s.lower() == "i":
+def i():
     print("""
   ***
    * 
@@ -91,7 +94,7 @@ for s in a:
    * 
   ***
     """)
-  if s.lower() == "j":
+def j():
     print("""
  ***
   * 
@@ -101,7 +104,7 @@ for s in a:
   * 
 ** 
     """)
-  if s.lower() == "k":
+def k():
     print("""
 *   *
 *  * 
@@ -111,7 +114,7 @@ for s in a:
 *  * 
 *   *
     """)
-  if s.lower() == "l":
+def l():
     print("""
  *    
  *    
@@ -121,7 +124,7 @@ for s in a:
  *    
  *****
     """)
-  if s.lower() == "m":
+def m():
     print("""
  *   *
  *   *
@@ -131,7 +134,7 @@ for s in a:
  *   *
  *   *
     """)
-  if s.lower() == "n":
+def n():
     print("""
 *   *
 *   *
@@ -141,7 +144,7 @@ for s in a:
 *   *
 *   *
     """)
-  if s.lower() == "o":
+def o():
     print("""
  *** 
 *   *
@@ -151,7 +154,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lower() == "p":
+def p():
     print("""
 ****
 *   *
@@ -161,7 +164,7 @@ for s in a:
 *
 *
     """)
-  if s.lower() == "q":
+def q():
     print("""
   ***   
  *   *  
@@ -171,7 +174,7 @@ for s in a:
  *  *   
   ** * 
     """)
-  if s.lower() == "r":
+def r():
     print("""
 ****    
 *   *   
@@ -181,7 +184,7 @@ for s in a:
 *  *    
 *   *  
     """)
-  if s.lower() == "s":
+def s(): 
     print("""
  ****
 *    
@@ -191,7 +194,7 @@ for s in a:
     *
  *** 
     """)
-  if s.lower() == "t":
+def t():
     print("""
 *****
   *  
@@ -201,7 +204,7 @@ for s in a:
   *  
   * 
     """)
-  if s.lower() == "u":
+def u(): 
     print("""
 *   *
 *   *
@@ -211,7 +214,7 @@ for s in a:
 *   *
  *** 
     """)
-  if s.lower() == "v":
+def v():
     print("""
 *   *
 *   *
@@ -221,7 +224,7 @@ for s in a:
  * * 
   * 
     """)
-  if s.lower() == "w":
+def w():
     print("""
 *   *
 *   *
@@ -231,7 +234,7 @@ for s in a:
 *   *
 *   *
     """)
-  if s.lower() == "x":
+def x():
     print("""
 *   *    
 *   *    
@@ -241,7 +244,7 @@ for s in a:
 *   *    
 *   * 
     """)
-  if s.lower() == "y":
+def y():
     print("""
 *   *
 *   *
@@ -251,7 +254,7 @@ for s in a:
   *  
   * 
     """)
-  if s.lower() == "z":
+def z():
    print("""
 *****
     *
@@ -261,3 +264,57 @@ for s in a:
 *
 ***** 
    """)
+
+for g in range(0, d):
+    if(c[g] == "a"):
+        a()
+    elif(c[g] == "b"):
+        b()
+    elif(c[g] == "c"):
+        c()
+    elif(c[g] == "d"):
+        d()
+    elif(c[g] == "e"):
+        e()
+    elif(c[g] == "f"):
+        f()
+    elif(c[g] == "g"):
+        g()
+    elif(c[g] == "h"):
+        h()
+    elif(c[g] == "i"):
+        i()
+    elif(c[g] == "j"):
+        j()
+    elif(c[g] == "k"):
+        k()
+    elif(c[g] == "l"):
+        l()
+    elif(c[g] == "m"):
+        m()
+    elif(c[g] == "n"):
+        n()
+    elif(c[g] == "o"):
+        o()
+    elif(c[g] == "p"):
+        p()
+    elif(c[g] == "q"):
+        q()
+    elif(c[g] == "r"):
+        r()
+    elif(c[g] == "s"):
+        s()
+    elif(c[g] == "t"):
+        t()
+    elif(c[g] == "u"):
+        u()
+    elif(c[g] == "v"):
+        v()
+    elif(c[g] == "w"):
+        w()
+    elif(c[g] == "x"):
+        x()
+    elif(c[g] == "y"):
+        y()
+    elif(c[g] == "z"):
+        z()
